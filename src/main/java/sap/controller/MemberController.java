@@ -9,6 +9,7 @@ import sap.domain.Member;
 import sap.service.MemberService;
 
 @Controller
+@CrossOrigin
 public class MemberController {
     private final MemberService memberService;
 
